@@ -74,6 +74,9 @@ The Decision Tree model identified the most important features influencing churn
 - **Improve Customer Service**: Enhance customer service efficiency to reduce churn.
 - **Reassess International Plans**: Ensure international plans meet customer needs and are competitively priced.
 
-## Next Steps
-Implement the findings and recommendations in SyriaTel’s retention strategies to reduce churn and increase profitability.
+## Future Work
+- **In-Depth Analysis of Churn Causes**: Conducting a more detailed examination of the factors leading to customer churn could be valuable. This might include gathering insights through surveys or interviews with customers who have left to better understand their reasons for discontinuing the service.
 
+- **Early Churn Prediction**: Beyond predicting which customers are likely to churn, it would be advantageous to forecast when they are most likely to leave. This would enable SyriaTel to proactively deploy retention strategies well before customers reach the point of churning.
+
+- **Implementation and Evaluation of Retention Strategies**: After identifying at-risk customers, the next step is to implement targeted retention strategies and assess their effectiveness. This could involve techniques like A/B testing to determine how well these strategies improve customer retention rates.
