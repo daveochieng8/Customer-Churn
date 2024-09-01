@@ -28,24 +28,15 @@ The dataset contains information on 3,333 customers, with 21 features covering d
 
 ### Churn Distribution
 We observed a class imbalance in the churn data, with significantly more customers not churning compared to those who did.
+
 ![Customer Churn Count](images/customer_churn_count.png)
-
-### Numerical Features Distribution
-Histograms and Kernel Density Estimation (KDE) plots were used to understand the distribution and spread of numerical features.
-
-![Histograms and KDE of Numerical Features](path_to_numerical_features_image)
-
-### Categorical Features Distribution
-Bar plots were used to visualize the distribution of categorical features.
-
-![Bar Plots of Categorical Features](path_to_categorical_features_image)
 
 ## Multivariate Analysis
 
 ### Correlation Heatmap
 A heatmap was used to visualize the correlation between numerical features. Several features exhibited perfect multicollinearity, leading to the removal of redundant features to improve model performance.
 
-![Correlation Heatmap](path_to_correlation_heatmap_image)
+![Correlation Heatmap](images/correlation_heatmap.png)
 
 ## Feature Engineering
 Feature engineering involved creating combined features, ratios, and flags to enhance the predictive power of the model. Redundant features were dropped to simplify the model.
@@ -59,7 +50,7 @@ Three models were developed: Logistic Regression, Decision Trees, and Random For
 - **Confusion Matrix**: Visualized the performance of each model by showing the distribution of true positives, true negatives, false positives, and false negatives.
 - **ROC Curve and AUC**: The ROC curve and AUC score provided insight into the models' ability to distinguish between churned and non-churned customers.
 
-![ROC Curves for Top 3 Models](path_to_roc_curves_image)
+![ROC Curves for Top 3 Models](images/top_roc.png)
 
 ## Model Tuning
 Hyperparameter tuning was applied to each model to improve performance. The Decision Tree model showed the best generalization, with a good balance between precision, recall, accuracy, and F1-score.
@@ -71,7 +62,7 @@ The Decision Tree model identified the most important features influencing churn
 - **High Customer Service Calls**
 - **Total Combined Usage**
 
-![Feature Importance](path_to_feature_importance_image)
+![Feature Importance](images/feature_importance.png)
 
 ## Conclusion
 - **Cost-Related Features**: Pricing and perceived value are critical in customer churn, with total combined charges being the most significant factor.
