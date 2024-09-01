@@ -28,9 +28,7 @@ The dataset contains information on 3,333 customers, with 21 features covering d
 
 ### Churn Distribution
 We observed a class imbalance in the churn data, with significantly more customers not churning compared to those who did.
-
-![image](https://github.com/user-attachments/assets/9ad13194-df21-40ac-895d-07e72fcf9687)
-
+![customer_churn_count](https://github.com/user-attachments/assets/5fdc1e78-ac5a-4399-a14c-fb5a446898fb)
 
 ### Numerical Features Distribution
 Histograms and Kernel Density Estimation (KDE) plots were used to understand the distribution and spread of numerical features.
